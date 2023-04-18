@@ -42,7 +42,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     profile_image = ImageField(upload_to='user-profile/', null=True, blank=True)
     full_name = CharField(max_length=255)
     date_of_join = DateTimeField(auto_now_add=True)
-    birth_date = DateField()
+    birth_date = DateField(null=True, blank=True)
     gender = BooleanField(default=True)
     about = TextField()
     address = CharField(max_length=500, null=True, blank=True)
