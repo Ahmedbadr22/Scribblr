@@ -9,7 +9,6 @@ djangorestframework-simplejwt==5.2.2
 idna==3.4
 Pillow==9.5.0
 ply==3.11
-psycopg2==2.9.6
 psycopg2-binary==2.9.6
 PyJWT==2.6.0
 pytz==2023.3
